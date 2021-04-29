@@ -7,7 +7,7 @@ pipeline {
     stage('abc') {
       
       steps {
-        sh "sudo kubectl create deploymnet myd --image=vimal13/webserver-apache-php --kubeconfig /root/config"
+        sh "sudo kubectl create deploymnet myd --image=vimal13/apache-webserver-php --kubeconfig /root/config"
         
       }
       
