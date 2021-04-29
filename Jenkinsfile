@@ -7,7 +7,7 @@ pipeline {
     stage('abc') {
       
       steps {
-        echo "hello"
+        sh "sudo kubectl get pods --kubeconfig /root/config"
         
       }
       
